@@ -1,0 +1,54 @@
+Binaries
+DerivedDataCache
+Intermediate
+Saved
+JSON
+.vscode
+.vs
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+!OWSInstanceLauncher/*/**
+.idea
+DDC
+DDCGlobal
+hooks
+lfs
+Build
+Releases
+.vsconfig
+
+!Build/Windows/Application.ico
+
+# Houdini
+*bak*.hip
+*bak*.hda
+
+# Megascans
+# Content/MSPresets
+# Content/Megascans
+
+Platforms/HoloLens/*/**
+.sentry-native
+
+Plugins/web3Unreal/Intermediate/
+Plugins/web3Unreal/Binaries/
+
+Plugins/MetaHuman/Intermediate/
+Plugins/MetaHuman/Binaries/
+
+Plugins/MongoDBDriver/Intermediate/
+Plugins/MongoDBDriver/Binaries/
+
+!Plugins/GameLiftServerSDK/ThirdParty/GameLiftServerSDK/Win64/aws-cpp-sdk-gamelift-server.dll
+!Plugins/GameLiftServerSDK/ThirdParty/GameLiftServerSDK/Win64/aws-cpp-sdk-gamelift-server.lib
+Plugins/DLSS/Binaries/
+Plugins/Streamline/Binaries/
+
+!Plugins/DLSS/Binaries/ThirdParty
+!Plugins/Streamline/Binaries/ThirdParty
